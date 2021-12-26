@@ -13,3 +13,5 @@ const Loader = () => (
     </button>
   </div>
 );
+
+export default Loader
