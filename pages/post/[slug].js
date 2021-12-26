@@ -13,7 +13,7 @@ import {
 function PostDetails({ post }) {
   const router = useRouter()
   if (router.isFallback){
-    return <Loadergit/>
+    return <Loader/>
   }
   return (
     <div className="container mx-auto px-10 mb-8">
